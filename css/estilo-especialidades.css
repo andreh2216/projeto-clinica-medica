@@ -1,0 +1,175 @@
+.container-banner{
+
+    
+    max-width: 1024px;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+body{
+    height: 100%;
+}
+h1{
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+}
+
+.container-banner a{
+    color: black;
+    text-decoration:none;
+    border-bottom: 1px solid aqua;
+    
+    padding: 0;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.container-banner a:hover{
+    color: rgb(18, 211, 211);
+}
+
+.container-texto-1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 1024px;
+}
+
+.container-texto-1 p{
+    max-width: 500px;
+
+}
+
+.container-texto-1 p, h1{
+    margin: 20px;
+}
+
+
+.container-texto-1 img{
+    height: 100%;
+    width: 300px;
+}
+
+.container-imagem-1{
+    margin-bottom:50px;
+    text-align: left;
+    max-width: 1024px;
+    height: 250px;
+    display: flex;
+ 
+}
+
+
+main, section, .container-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+footer{
+    
+    bottom: 0;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+ 
+}
+
+table tr:nth-of-type(odd){
+    background-color: rgba(172, 165, 165, 0.821);
+}
+
+table th{
+    padding: 15px;
+    background-color: aqua;
+    color: #fff;
+}
+
+td, th{
+    padding-left: 15px;
+}
+
+/* MOBILE/*//* MOBILE/*//* MOBILE/*//* MOBILE/*/
+
+@media only screen and (max-width:425px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-imagem-1 img{
+        display: none;
+    }
+
+    .container-imagem-1 table{
+        width: 100vw;
+    }
+
+    .container-texto-1{
+        width: 100vw;
+    }
+
+    .container-imagem-1{
+        width: 100vw;
+    }
+
+    .container-texto-1 p, table{
+        width: 100vw;
+    }
+    
+ 
+
+  
+}
+
+/* TABLET/*//* TABLET/*//* TABLET/*/
+
+@media only screen and (min-width:426px) and (max-width:768px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-imagem-1 img{
+        display: none;
+    }
+
+    .container-imagem-1 table{
+        width: 100vw;
+    }
+
+    .container-texto-1{
+        width: 100vw;
+    }
+
+    .container-imagem-1{
+        width: 100vw;
+    }
+
+    .container-texto-1 p, table{
+        width: 100vw;
+    }
+    
+ 
+
+
+}
